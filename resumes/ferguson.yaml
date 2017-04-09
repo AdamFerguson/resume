@@ -1,0 +1,451 @@
+
+# Example resume
+
+profile:
+  name: Adam Ferguson
+  label: Software Developer
+  email: Adam.Brugh.Ferguson@gmail.com
+  phone: 540.558.8670
+  address: Charlotte, NC
+  summary: >
+    Software developer with broad experience in full stack web development,
+    cloud computing, devops, data analysis, service oriented architecture, and systems integration.
+    Strong problem solver that optimizes for reliable, working solutions that are cost effective in both the short and long term.
+    Strives to always maintain a balance between perfectionism and pragmatism.
+    Easy going personality and appreciates that the creation of software is a team sport.
+    Constantly learning and quickly adapts to new technologies, techniques, and architectures.
+
+  image: "https://avatars2.githubusercontent.com/u/793176?v=2&s=460"
+  website: http://www.adam-ferguson.com
+
+  networks:
+    - provider: twitter
+      username: AdamBFerg
+      url: https://twitter.com/AdamBFerg
+
+    - provider: github
+      username: AdamFerguson
+      url: https://github.com/AdamFerguson
+
+    - provider: linkedin
+      username: adambferg
+      url: https://www.linkedin.com/in/adambferg
+
+skills:
+  - area: Programming
+    skills:
+      - Ruby, +6 years
+      - Python, +4 years
+      - Javascript, +10 years
+      - CSS/HTML/HTML5, +15 years
+      - Java, +15 years
+      - Bash, intermediate, +5 years,
+      - "C#, intermediate, +10 years,"
+      - Clojure, novice, +1 year
+      - Scala, novice, +1 year
+      - Perl, not used anymore
+
+  - area: Technology
+    skills:
+      - Git, Mercurial, SVN, CVS
+      - PostgreSQL, MySQL, SQL Server, Oracle
+      - Redshift
+      - ElasticSearch
+      - Redis
+      - MongoDB
+      - Docker
+      - Ansible, Chef, Capistrano, Fabric
+      - Hadoop ecosystem, novice
+      - Travis, Jenkins
+      - Vagrant
+
+  - area: Frameworks/Libraries
+    skills:
+      - Client-Side Javascript - EmberJS (advanced), AngularJS, ReactJS, BackboneJS
+      - Server-Side Web - Ruby on Rails (advanced), Django, Spring MVC, Play
+      - Microframeworks - Flask, Sinatra, ExpressJS, Bottle
+      - ORM/Database - Mongoose/Mongoid, SQLAlchemy, Hibernate, Entity Framework
+      - Testing libraries - RSpec, QUnit, Mocha, Jasmine, Nose
+
+
+work:
+  - role: Data Engineer and Application Development Consultant
+    company: "Ferguson Software Services onsite at Mood Media"
+    start_date: January 2015
+    end_date: March 2017
+    summary: Systems integration and web application development
+    technologies:
+      - Python - 3
+      - SQLAlchemy - 3
+      - Ruby - 3
+      - Amazon Web Services - 3
+      - Ruby on Rails - 2
+      - ReactJS - 2
+      - AngularJS - 2
+      - Flask (Python) - 2
+      - Dedupe (Python) - 2
+      - ETL - 3
+      - Capistrano (Ruby) - 2
+      - Ansible - 3
+      - Hadoop - 1
+      - Storm - 1
+      - Kafka - 1
+      - Ambari - 1
+      - Alembic (Python) - 3
+      - Clojure - 1
+      - Redshift - 2
+      - Opsworks - 2
+    highlights:
+      - >-
+        Assisted development team in the creation of the "Encore" project,
+        a web application used internally at Mood Media for the management
+        of music content. Encore consolidates the functionality of multiple internal systems.
+        Backend is C# using Web API and Entity Framework, exposing a JSON-RPC API, and AngularJS on the frontend.
+      - >-
+        Wrote an ETL framework in Python and SQLAlchemy responsible for migrating data into Encore
+        from legacy applications as well as pushing data entered into Encore to existing legacy applications.
+      - >-
+        Assist in the maintenance of "Mood Mix", a Ruby on Rails application that lets Mood Media
+        customers create, manage, and play custom playlists. Included migrating reporting infrastructure
+        in Mood Mix to Redshift.
+      - >-
+        Developed a Ruby on Rails application that reports on Device outages seen in the field.
+
+  - role: Web Development Consultant
+    company: "Ally Financial through OpenSystems Technologies"
+    start_date: August 2014
+    end_date: January 2015
+    technologies:
+      - EmberJS - 3
+      - NodeJS - 3
+      - Broccoli (Javascript) - 3
+      - Ember CLI - 3
+      - Rake Pipeline - 2
+      - RequireJS - 2
+      - SASS/SCSS - 3
+      - HTML5 - 3
+      - CSS3 - 3
+    highlights:
+      - >-
+        Joined an existing development team to help in the completion, and deployment,
+        of an effort to rewrite Ally's online banking frontend as an EmberJS application.
+      - >-
+        Completed the build process needed to minify, and fingerprint, javascript and css files
+        prior to deployment in production. Build process used RequireJS and Rake Pipline.
+      - >-
+        Helped port build process of application to Ember CLI. Included rewriting javascript code
+        to use ES6 modules instead of RequireJS style modules.
+      - >-
+        Wrote a custom dev server in NodeJS that acted as an API proxy. Allowed team to get around
+        web browser security restrictions that were preventing testing on mobile devices.
+      - >-
+        Heavily customized Ember CLI build process to allow for separate application builds
+        for Desktop web browser and Mobile web browsers. This process allowed for the creation
+        of a mobile version of the existing desktop application that was a small subset of the desktop
+        and reused most of the existing code with selective overrides.
+
+  - role: Senior Software Engineer
+    company: Technekes/Connexiolabs
+    start_date: February 2013
+    end_date: August 2014
+    technologies:
+      - Ruby on Rails
+      - Grape (Ruby)
+      - Goliath (Ruby)
+      - MongoDB
+      - Postgresql
+      - EmberJS
+      - NodeJS
+      - Javascript
+      - Pubnub
+      - ElasticSearch
+      - Eloqua
+      - Microservices
+      - Puppet
+      - Amazon Web Services
+    highlights:
+      - >-
+        Work with a small team of developers to create
+        back office tools for running marketing campaigns including:
+        a Marketing Data API, a Workflow application, and a Call Center
+        application.
+      - >-
+        Developed the Call Center application used by all of Technekes’
+        call center employees with one other developer and a designer.
+        The frontend makes cross domain API calls to multiple backend services.
+        The Call Center specific backend provides a backend JSON API and
+        utilizes PostgresSQL, MongoDB, and ElasticSearch. The Twilio API
+        is used for Telephony via both VOIP (via the browser) and
+        phone-to-phone calls. Twitter Bootstrap is used as a basis
+        for design, though the UI is quite customized beyond
+        Bootstrap’s default appearance.
+      - >-
+        Developed a Realtime Dashboard using Ember.js and Ruby on Rails
+        to allow Call Center administrators to monitor the status of
+        Call Center employees and listen in on ongoing calls.
+        The dashboard uses Pubnub to push status updates from the server
+        to the browser and Sidekiq for queuing status updates.
+      - >-
+        Developed an admin interface for reporting aggregate information
+        related to the Call Center.
+      - >-
+        Contributed to the Puppet repository used for managing all servers
+        in QA and Production environments.
+      - >-
+        Part of a three developer team that was split off from Technekes
+        to form a new, product-focused, startup: Connexiolabs.
+      - >-
+        Developed an Eloqua Cloud Connector application in Ruby on Rails that
+        allows users to configure steps during their Eloqua marketing campaigns
+        for sending text messages via the Twilio API. Used the Savon gem
+        for communicating with Eloqua’s SOAP based API.
+      - >-
+        Develop two separate versions of an Ember.js and Ruby on Rails
+        application that allows users to upload a CSV file that contains
+        marketing data, map it into a form that can be sent to the
+        Connexio API and then parse the file and upload the data to the API.
+
+  - role: Senior Software Developer
+    company: Mood Media/Muzak LLC
+    start_date: July 2011
+    end_date: February 2013
+    technologies: []
+    highlights:
+      - >-
+        Worked as part of a small team of developers (started with two and
+        eventually transitioned to six) to design and develop multiple web
+        and mobile applications including OnlineDJ, Klikt, Sonictap, and
+        the Mymuzak dashboard.
+      - >-
+        Designed and developed the MyMuzak dashboard, Klikt, and OnlineDJ
+        web applications along with their RESTful (JSON based) APIs in
+        version 3.2 Ruby on Rails apps using BDD and TDD techniques.
+        Used Cucumber for feature development and integration testing
+        and RSpec for integration and unit testing. Front end code
+        written in a mixture of Haml, Scss, Coffeescript, Javascript,
+        HTML, CSS, and ERB.
+      - >-
+        Helped set up and deploy all applications using multitiered
+        architecture on Amazon Web Services (AWS). Used MySQL as the
+        database server on RDS, with multiple application servers running
+        nginx as the web server, Unicorn as the application server,
+        in addition to a separate server used for running background
+        jobs using resque and redis.
+      - >-
+        Used Sphinx and Thinking Sphinx gem for full text search in Mymuzak.
+        Used Solr and Sunspot gem for search in OnlineDJ.
+      - >-
+        Developed server code in javascript for Sonictap application using
+        Node.js, Express.js, Passport, and Mongoose. Application parsed
+        UDP packets with playlist updates and served a RESTful API to
+        authenticated iOS clients.
+      - >-
+        Promoted and led the integration of Backbone.js and Underscore.js
+        for rich client side use in OnlineDJ. Built out a full featured
+        calendar for scheduling playlists in Backbone.js, Underscore.js,
+        Haml, and Scss.
+      - >-
+        Used Capistrano for deployment and eventually used Chef for automating
+        server setup. Used continuous integration for automated deployments to our staging environments using Jenkins CI.
+      - >-
+        Led development on the initial prototype mobile application for Klikt that
+        used Phonegap and was deployed to the Apple App Store. Used modern,
+        structured, javascript techniques to write the application which used
+        jQuery, jQuery Mobile, Backbone.js, and ICanHaz.js for client side
+        templating and communicated with our RESTful API.
+      - >-
+        Led development on a native Android version of Klikt that had
+        several advanced features, including push notifications (for new
+        deals and loyalty programs), Google Maps integration, and QR code
+        scanning. Used Spring Android and Jackson java libraries for
+        communicating with the RESTful API. Designed a mechanism for
+        communicating with the API in a background service and persisting
+        the results to the phone.
+      - >-
+        Began developing an Android tablet application for OnlineDJ that used
+        Android Annotations, Roboguice, Robolectric, Spring Android, Jackson,
+        and OrmLite. Project was shelved prior to completion because of other
+        higher priorities.
+      - >-
+        Wrote code for communicating with several third party API’s including
+        Facebook, Twitter, Mailchimp, AppFigures, and Google Maps, along
+        with a few others, in both Ruby and Java.
+      - >-
+        The development process for all projects was Agile with requirements
+        built around wireframes and development cycles completed in two weeks sprints.
+  - role: Web Developer
+    company: Wells Fargo through TekSystems
+    start_date: May 2011
+    end_date: June 2011
+    technologies:
+      - Java
+      - Hibernate
+      - ActionScript
+      - FLEX
+      - Eclipse
+      - Ant
+      - Oracle
+    highlights:
+      - >-
+        Wrote backend and frontend code for international trade department
+        using Java, FLEX, and in-house proprietary development framework.
+      - >-
+        Project was using Hibernate for persistence layer, HP Quality Center
+        for issue tracking, Eclipse as IDE, Ant for builds, JBoss as
+        application server, and Oracle as the database server.
+  - role: Software Engineer
+    company: Public Consulting Group
+    start_date: March 2008
+    end_date: May 2011
+    projects: []
+    technologies:
+      - Perl
+      - Javascript
+      - JQuery
+      - HTML
+      - SQL
+      - CSS
+    highlights:
+      - >-
+        Primary developer on BehaviorPlus, a web app for tracking behavioral issues
+        in grade school students that integrated with an existing legacy system
+        that tracked data on special education students.
+      - >-
+        Followed an iterative software development process where word documents describing
+        the data entry screens and flow between screens were used to design
+        the database schema, middle tier components used to interact with the
+        database, and front end code for displaying data to the user.
+      - >-
+        Backend code was written using SQL and Perl, front end code was
+        written using an in-house templating system similar in nature to
+        JSP or Erb, along with HTML, CSS, and Javascript (including the
+        Prototype and jQuery javascript libraries). SQL Server 2000 and IIS
+        were initially used as DB and application servers. Later migrated
+        to SQL Server 2005 and Apache.
+      - >-
+        Assisted in creating stylesheets that defined interface standards for
+        all commonly displayed elements in pages within the web app.
+      - >-
+        Led the configuration, training, and release of the issue tracking
+        tool JIRA within the company.
+      - >-
+        Communicated technical system requirements to Business Systems Analysts
+        and Project Managers for features and system changes during the design
+        phase of projects.
+      - >-
+        Developed scripts used for common system administration tasks using Perl.
+  - role: Business Systems Analyst
+    company: SNL Financial
+    start_date: April 2007
+    end_date: March 2008
+    projects: []
+    technologies: []
+    highlights:
+      - >-
+        Maintained and acted as content expert for Institutional Ownership,
+        Insider Trading and Short Interest datasets within the company.
+        Training on these datasets happened in less than a one month period.
+      - >-
+        Communicated with third-party vendors for content and technical
+        specifications related to datafeeds.
+      - >-
+        Drafted technical specifications for converting manual collection and
+        entry of credit ratings from three major credit rating agencies
+        (S&P, Moody’s, and Fitch) to automated process including specifications
+        for software used for feed maintenance.
+      - >-
+        Derive dataset statistics for senior management and sales teams for
+        use in contract negotiations and marketing materials using SQL and
+        proprietary Excel plug-in, SNLxl.
+      - >-
+        Troubleshot problems reported in SQL Server 2005 stored procedures
+        used for calculating SNL’s internal market indices.
+  - role: IGERT Fellow
+    company: National Science Foundation
+    start_date: May 2002
+    end_date: June 2006
+    projects: []
+    technologies: []
+    highlights:
+      - >-
+        Led and assisted in various research projects interested in examining
+        economic aspects of the emerging wireless technology cognitive radio.
+      - >-
+        Conducted regression analysis on data collected in Economics Experiments in
+        STATA. Results included in journal publications.
+  - role: Programmer/Lab Assistant
+    company: Economics Dept. at Virginia Tech
+    start_date: May 2002
+    end_date: June 2006
+    projects: []
+    technologies: []
+    highlights:
+      - >-
+        Development, analysis, and refinement of the Wireless Interactive Teaching
+        System (WITS) including programming in C#, developing server-side logic,
+        and data collection and analysis.
+      - >-
+        Web design for the WITS project using FrontPage and text editors.
+  - role: Research Assistant
+    company: Virginia Tech Transportation Institute
+    start_date: May 2001
+    end_date: August 2003
+    projects: []
+    technologies: []
+    highlights:
+      - >-
+        Extract and analyze relevant data from Human Factors studies using
+        Excel, VB.NET, and SQL Server.
+
+
+
+
+
+projects: []
+
+    # -   name: null
+    #     role: null
+    #     website: null
+    #     date: null
+    #     summary: null
+    #     highlights: []
+
+
+education:
+  - location: Virginia Tech, Blacksburg, VA
+    date: 2004 - 2006
+    summary:
+      - MA Economics
+      - Nation Science Foundation IGERT Fellow
+  - location: Virginia Tech, Blacksburg, VA
+    date: 2000 - 2004
+    summary:
+      - BS Economics & Business Information Technology,
+      - Outstanding Senior in Economics Class of 2004
+      - 3.7 GPA
+
+other_learning:
+  - name: "Sun Certified Programmer (SCJP) for the Java Platform, SE 6 (Score: 86%)"
+    date: "11/2009"
+  - name: "Software Engineering for Software as a Service through Coursera"
+    date: "02/2012"
+  - name: "Functional Programming Principles in Scala through Coursera"
+    date: "12/2012"
+  - name: "Active member of multiple programming meetups in the Charlotte area including the Ruby, Python, and Javascript meetup groups."
+    date: "06/2011 - Present"
+  - name: "Led a group of developers/entrepreneurs working on a SAAS prediction market at Charlotte startup weekend."
+    date: "05/2011"
+
+
+interests:
+    - Cloud Services
+    - Emerging technologies
+    - Data Analysis and Machine Learning
+    - Design Patterns
+    - Service Oriented Architecture
+
+config:
+    theme: simple
+    github_source: https://github.com/AdamFerguson/resume
+    pdf_file: Adam_Ferguson_Resume.pdf
+    year: 2017
