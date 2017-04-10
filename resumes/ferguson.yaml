@@ -465,8 +465,7 @@ work:
     end_date: June 2006
     projects: []
     technologies: []
-    highlights: []
-    details:
+    highlights:
       - >-
         Development, analysis, and refinement of a system (WITS) that used Palm Pilots
         as clients and a central server to simulate market scenarios in Economics classes.
