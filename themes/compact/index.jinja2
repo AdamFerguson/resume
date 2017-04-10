@@ -152,7 +152,9 @@
                 <h4>{{ area.area }}</h4>
                 <ul>
                   {% for skill in area.skills %}
-                  <li>{{ skill }}</li>
+                  <li>
+                    {{ skill.name }}{% if skill.proficiency %}, {{ skill.proficiency }}{% endif %}
+                  </li>
                   {% endfor %}
                 </ul>
               </div>

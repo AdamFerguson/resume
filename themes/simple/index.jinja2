@@ -87,6 +87,9 @@
       .dl-horizontal dd {
         margin-left: 75px;
       }
+      body {
+        font-size: 12px;
+      }
     }
   </style>
 </head>
@@ -167,11 +170,13 @@
             <div class="row skills">
 
               {% for area in skills %}
-              <div class="col-md-6 col-xs-6">
+              <div class="col-md-4 col-xs-4">
                 <h4>{{ area.area }}</h4>
                 <ul>
                   {% for skill in area.skills %}
-                  <li>{{ skill }}</li>
+                  <li>
+                    {{ skill.name }}{% if skill.proficiency %}, {{ skill.proficiency }}{% endif %}
+                  </li>
                   {% endfor %}
                 </ul>
               </div>
