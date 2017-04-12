@@ -536,3 +536,4 @@ config:
     github_source: https://github.com/AdamFerguson/resume
     pdf_file: Adam_Ferguson_Resume.pdf
     year: 2017
+    google_tracking_code: UA-41028269-3
