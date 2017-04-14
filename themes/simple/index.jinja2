@@ -118,8 +118,10 @@
                 <dt>Address:</dt>
                 <dd>{{ profile.address }}</dd>
 
-                <dt>Phone:</dt>
-                <dd>{{ profile.phone }}</dd>
+                {% if profile.phone %}
+                  <dt>Phone:</dt>
+                  <dd>{{ profile.phone }}</dd>
+                {% endif %}
 
                 <dt>Email:</dt>
                 <dd>

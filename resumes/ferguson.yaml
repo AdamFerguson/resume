@@ -5,7 +5,7 @@ profile:
   name: Adam Ferguson
   label: Software Developer
   email: Adam.Brugh.Ferguson@gmail.com
-  phone: 540.558.8670
+  #phone: null
   address: Charlotte, NC
   summary: >
     Software developer with broad experience in full stack web development,
