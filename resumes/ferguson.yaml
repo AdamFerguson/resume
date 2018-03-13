@@ -19,10 +19,6 @@ profile:
   website: http://adam-ferguson.com
 
   networks:
-    - provider: twitter
-      username: AdamBFerg
-      url: https://twitter.com/AdamBFerg
-
     - provider: github
       username: AdamFerguson
       url: https://github.com/AdamFerguson
@@ -76,6 +72,42 @@ skills:
       - name: RSpec, QUnit, Mocha, Jasmine, Nose
 
 work:
+  - role: Senior Software Engineer
+    company: "Ferguson Software Services onsite at Invue Security Products, Inc."
+    start_date: April 2017
+    end_date: Present
+    summary: "Cloud Migration, DevOps, Full Stack Web, Android Development"
+    technologies:
+      - NodeJS
+      - ReactJS
+      - Google Cloud Platform
+      - Java
+      - Ansible
+      - Sequelize.js
+      - PostgreSQL
+      - REST API
+      - Cloud Migration
+      - Android
+      - Reactive Extensions
+      - AWS IOT
+      - Cloud Formation
+      - Lambda
+      - Kinesis
+      - Athena
+      - Docker
+      - GraphQL
+      - AngularJS
+      - ElasticSearch
+    highlights:
+      - >-
+        Migrated a Node/React application from a physical server, deployed with bash scripts,
+        to Google Cloud provisioned and deployed with Ansible under CI/CD with Travis
+      - >-
+        Migrated Java application server communicating with embedded device with proprietary
+        binary format over TCP sockets to run in Cloud environment.
+      - >-
+        Added features and deployed an Android application to work with a new verion of NodeJS API.
+    details: []
   - role: Data Engineer and Application Development Consultant
     company: "Ferguson Software Services onsite at Mood Media"
     start_date: January 2015
