@@ -56,12 +56,12 @@ skills:
       - name: Git, Mercurial, SVN, CVS
       - name: PostgreSQL, MySQL, SQL Server, Oracle, Redshift
       - name: ElasticSearch, Redis MongoDB
-      - name: Ansible, Chef, Capistrano, Fabric, Docker
+      - name: Ansible, Docker, Chef, Capistrano, Fabric
       - name: Hadoop, Storm, Kafka
         proficiency: novice
       - name: Travis, Jenkins, Vagrant
       - name: Websockets, Socket.IO, PubNub
-      - name: Amazon Web Services
+      - name: Amazon Web Services, Google Cloud Platform
 
   - area: Frameworks/Libraries
     skills:
@@ -73,10 +73,10 @@ skills:
 
 work:
   - role: Senior Software Engineer
-    company: "Ferguson Software Services onsite at Invue Security Products, Inc."
+    company: Ferguson Software Services at Invue Security Products, Inc.
     start_date: April 2017
     end_date: Present
-    summary: "Cloud Migration, DevOps, Full Stack Web, Android Development"
+    summary: Cloud Infrastructure, DevOps, Full Stack Web, Android, IOT, Serverless
     technologies:
       - NodeJS
       - ReactJS
@@ -100,14 +100,17 @@ work:
       - ElasticSearch
     highlights:
       - >-
-        Migrated a Node/React application from a physical server, deployed with bash scripts,
-        to Google Cloud provisioned and deployed with Ansible under CI/CD with Travis
+        Migrated a Node/React application from a physical server, deployed with bash scripts, to Google Cloud provisioned and deployed with Ansible under CI/CD with Travis
       - >-
-        Migrated Java application server communicating with embedded device with proprietary
-        binary format over TCP sockets to run in Cloud environment.
+        Migrated Java application server communicating with embedded device with proprietary binary format over TCP sockets to run in Cloud environment.
       - >-
         Added features and deployed an Android application to work with a new verion of NodeJS API.
+      - >-
+        Features, bugfixes, performance enhancements, and systems administration on 'Microsigns'. A web application that leveraged a microservices architecture using Node w/ PostgreSQL on the backend and AngularJS on the frontend. Deployed to AWS using Ansible and Docker.
+      - >-
+        Setup an IOT infrastructure in AWS for receiving messages from devices deployed in retailers and processing them using AWS Lambda deployed with the serverless framework.
     details: []
+
   - role: Data Engineer and Application Development Consultant
     company: "Ferguson Software Services onsite at Mood Media"
     start_date: January 2015
