@@ -1,0 +1,17 @@
+{
+  "name": "json-resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:ferguson": "npm run build:ferguson:html && npm run build:ferguson:pdf",
+    "build:ferguson:html": "resume export --resume=ferguson.json --theme flat index.html",
+    "build:ferguson:pdf": "resume export --resume=ferguson.json --theme flat AdamFerguson-Resume.pdf"
+  },
+  "author": "Adam Ferguson <Adam.Brugh.Ferguson@gmail.com> (http://adam-ferguson.com/)",
+  "license": "ISC",
+  "devDependencies": {
+    "resume-cli": "^1.1.2"
+  }
+}

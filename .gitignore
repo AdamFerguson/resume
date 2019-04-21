@@ -1,10 +1,2 @@
-__pycache__/
-*.py[cod]
-env/
-VIRTUAL/
-build/
-pdf_build/
-*.sublime-project
-*.sublime-workspace
-bower_components/
-config.make
+
+node_modules/

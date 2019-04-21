@@ -1,0 +1,641 @@
+<!doctype html>
+<html>
+	<head>
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+	
+	<title>Adam Ferguson</title>
+	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.2.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
+	
+	<style type="text/css">
+	@import url(
+	https://fonts.googleapis.com/css?family=Lato:400,700
+);
+body {
+	background: #fff;
+	font-family: Lato, sans-serif;
+	margin: 0 0 80px;
+}
+a {
+	color: #2ecc71;
+}
+a:focus,
+a:hover {
+	color: #f1c40f;
+	text-decoration: none;
+}
+p {
+	line-height: 1.5;
+	margin: 0;
+}
+p + p {
+	margin-top: 10px;
+}
+h1,
+h2,
+h3,
+h4 {
+	margin-top: 0
+}
+section {
+	margin-top: 30px;
+}
+li {
+	line-height: 1.8;
+	list-style: none;
+}
+li:before {
+	content: "\f052";
+	float: left;
+	font: 13px Octicons;
+	margin-top: 6px;
+	margin-left: -20px;
+	opacity: .1;
+	position: absolute;
+}
+blockquote {
+	border-left: 5px solid #e7e9ec;
+	font-size: 14px;
+}
+em {
+	color: #95a5a6;
+	font-weight: normal;
+	font-style: normal;
+}
+h4 span:first-child {
+	color: #000;
+	font-weight: bold;
+}
+.container {
+	max-width: 750px;
+	padding: 0 30px;
+}
+.col-sm-6 {
+	margin-bottom: 10px;
+}
+.col-sm-12 h4 {
+	margin-top: 12px; 
+}
+.col-sm-12 + .col-sm-12 {
+	margin-top: 30px;
+}
+#header {
+	background: #f4f6f6;
+	padding: 50px 0;
+	margin-bottom: 30px;
+}
+#header h2 {
+	color: #95a5a6;
+	font-size: 24px;
+}
+#content h3 {
+	color: #f1c40f;
+	font-size: 26px;
+	margin-top: -4px;
+}
+#content aside {
+	text-align: right;
+	padding-right: 30px;
+}
+#profiles .network {
+	text-transform: capitalize;
+}
+#work .position,
+#volunteer .position {
+	font-weight: bold;
+	margin-bottom: 8px;
+}
+#education .area {
+	font-weight: bold;
+}
+#education .area:before {
+	content: "\f0d7";
+	font: 16px Octicons;
+	margin-right: 6px;
+}
+#education .studyType {
+	margin-left: 25px;
+}
+#awards .summary,
+#publications .summary {
+	margin-top: 8px;
+}
+#publications .website a:before {
+	content: attr(href);
+}
+
+@media (min-width: 480px) {
+	.strike-through {
+		border-top: 1px solid #f4f6f6;
+		height: 20px;
+		margin-top: 12px;
+		margin-bottom: -2px;
+		position: relative;
+	}
+	.strike-through span,
+	.strike-through a {
+		background: #fff;
+		position: absolute;
+	}
+	.strike-through span:first-child {
+		padding-right: 20px;
+		margin-top: -12px;
+	}
+	.strike-through span + span {
+		font-size: 14px;
+		margin-top: -10px;
+		padding-left: 20px;
+		right: 0;
+	}
+}
+@media (max-width: 768px) {
+	.col-sm-6:last-child {
+		margin-bottom: 0px;
+	}
+	#content aside {
+		margin-bottom: 20px;
+		padding-right: 0;
+		text-align: left;
+	}
+	#publications .website a:before {
+		content: "View publication";
+	}
+}
+@media (max-width: 480px) {
+	h1 {
+		font-size: 26px;
+	}
+	.date {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+	.strike-through span:first-child {
+		margin-bottom: 7px;
+	}
+	.strike-through span {
+		display: block;
+	}	
+	#header {
+		margin-bottom: 10px;
+		padding: 40px 0;
+	}
+	#actions {
+		display: none;
+	}
+}
+
+	</style>
+	
+	</head>
+	<body>
+	
+	<header id="header">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-9 col-sm-push-3">
+					<h1>
+						Adam Ferguson
+					</h1>
+					<h2>
+						Senior Software Engineer
+					</h2>
+				</div>
+			</div>
+		</div>
+	</header>
+	<div id="content" class="container">
+
+	<section id="contact" class="row">
+		<aside class="col-sm-3">
+			<h3>Contact</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<strong>Email</strong>
+				<div class="email">Adam.Brugh.Ferguson@gmail.com</div>
+			</div>
+			<div class="col-sm-6">
+				<strong>Website</strong>
+				<div class="website">
+					<a href="http://adam-ferguson.com">http://adam-ferguson.com</a>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	<section id="about" class="row">
+		<aside class="col-sm-3">
+			<h3>About</h3>
+		</aside>
+		<div class="col-sm-9">
+			<p>Software Engineer with broad experience in full stack web development, cloud computing, devops, data analysis, service oriented architecture, and systems integration. Strong problem solver with an eye for simple, reliable solutions. Active learner and quickly adapts to new technologies, techniques, and architectures.
+</p>
+		</div>
+	</section>
+	<section id="profiles" class="row">
+		<aside class="col-sm-3">
+			<h3>Profiles</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+				<div class="col-sm-6">
+					<strong class="network">
+						Github
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://github.com/AdamFerguson">AdamFerguson</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						LinkedIn
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://www.linkedin.com/in/adambferg">adambferg</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<strong class="network">
+						Stack Overflow
+					</strong>
+					<div class="username">
+						<div class="url">
+							<a href="https://stackoverflow.com/users/836756/adam">Adam</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="work" class="row">
+		<aside class="col-sm-3">
+			<h3>Work</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Invue Security Inc.</span>
+					<span class="date">
+						2017-04-10 — 
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://invue.com">https://invue.com</a>
+				</div>
+				<div class="position">
+					Senior Software Engineer
+				</div>
+				<div class="summary">
+					<p>Cloud Infrastructure, DevOps, Full Stack Web, Android, IOT, Serverless</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Migrated a Node/React application from a physical server, deployed with bash scripts, to Google Cloud provisioned and deployed with Ansible under CI/CD with Travis</li>
+					<li class="bullet">Migrated Java application server communicating with embedded device with proprietary binary format over TCP sockets to run in Cloud environment.</li>
+					<li class="bullet">Added features and deployed an Android application to work with a new verion of NodeJS API.</li>
+					<li class="bullet">Features, bugfixes, performance enhancements, and systems administration on &#x27;Microsigns&#x27;. A web application that leveraged a microservices architecture using Node w/ PostgreSQL on the backend and AngularJS on the frontend. Deployed to AWS using Ansible and Docker.</li>
+					<li class="bullet">Setup an IOT infrastructure in AWS for receiving messages from devices deployed in retailers and processing them using AWS Lambda deployed with the serverless framework.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Ferguson Software Services onsite at Mood Media</span>
+					<span class="date">
+						2015-01-10 — 2017-03-31
+					</span>
+				</h4>
+				<div class="position">
+					Data Engineer and Application Development Consultant
+				</div>
+				<div class="summary">
+					<p>Systems integration and web application development</p>
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Assisted in development of web application using C# on the backend and AngularJS on the frontend.</li>
+					<li class="bullet">Integrated multiple systems using ETL framework, Python, and SQLAlchemy</li>
+					<li class="bullet">Developed and maintained multiple Ruby on Rails applications that used various client side javascript frameworks, including ReactJS and BackboneJS</li>
+					<li class="bullet">Migrated an existing data warehousing solution from MongoDB to Redshift</li>
+					<li class="bullet">Started a device outage monitoring solution using the Hadoop platform, Ambari, Storm, and Kafka</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Ally Financial through OpenSystems Technologies</span>
+					<span class="date">
+						2014-08-15 — 2015-01-07
+					</span>
+				</h4>
+				<div class="website pull-right">
+					<a href="https://ally.com">https://ally.com</a>
+				</div>
+				<div class="position">
+					Web Development Consultant
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Part of team that developed Ally&#x27;s online banking frontend as an EmberJS application</li>
+					<li class="bullet">Customized and completed several variants of the build process used by whole team for development and deployment. Tools used included Rake Pipeline, RequireJS, Broccoli, Ember-CLI, and ES6.</li>
+					<li class="bullet">Reworked build process to create a mobile specific version of the online banking application. Added mobile specific customizations to the application.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Technekes/Connexiolabs</span>
+					<span class="date">
+						2013-02-14 — 2014-08-10
+					</span>
+				</h4>
+				<div class="position">
+					Senior Software Engineer
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Lead developer on call center application used by all of Technekes call center employees. Project used EmberJS on the front end, Ruby on Rails on the backend along with MongoDB, ElasticSearch, and Postgresql. Twilio was used for telephony.</li>
+					<li class="bullet">Developed a realtime dashboard using EmberJS and Ruby on Rails that allowed administrators to monitor the status and listen to ongoing calls. Pubnub was used for realtime communication between the client and server.</li>
+					<li class="bullet">Part of small developer team that was split off from Technekes to form a separate, product focused, startup &#x27;Connexiolabs&#x27;. Developed several marketing focused applications and web services as a part of that startup using a Microservices architecture.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Mood Media/Muzak LLC</span>
+					<span class="date">
+						2011-07-05 — 2013-02-07
+					</span>
+				</h4>
+				<div class="position">
+					Senior Software Developer
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Founding member of the New Product Development team. Designed and developed multiple web and mobile applications including OnlineDJ, Klikt, Sonictap, and the MyMuzak.</li>
+					<li class="bullet">Developed the backend of MyMuzak, Klikt, and OnlineDJ using Ruby on Rails. Used MySQL, Sphinx, and Solr for data storage and free text search. Applications were developed using BDD and TDD techniques including the use of Cucumber and RSpec.</li>
+					<li class="bullet">Developed mobile applications for the customer loyalty application, Klikt. Developed a native Android application in Java using SpringAndroid, Roboguice, Android Annotations, OrmLite, and Jackson.</li>
+					<li class="bullet">Used BackboneJS for developing rich client side features in OnlineDJ and MyMuzak. Developed the Klikt iPhone app using phonegap and BackboneJS.</li>
+					<li class="bullet">Used DevOps tools and techniques including Jenkins for continuous integration, Capistrano for automated deployments, and Chef for server provisioning.</li>
+					<li class="bullet">Integrated applications with several third party services including Facebook, Twitter, Mailchimp, AppFigures, and Google Maps.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Public Consulting Group</span>
+					<span class="date">
+						2008-03-15 — 2011-05-15
+					</span>
+				</h4>
+				<div class="position">
+					Software Engineer
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Lead developer on BehaviorPlus, a web app for tracking behavior issues in grade school students. BehaviorPlus integrated with EasyIEP, an existing application that helps school districts comply with laws around services for special education students.</li>
+					<li class="bullet">Developed backend code in SQL and Perl, frontend code in HTML, CSS, and Javascript, jQuery and PrototypeJS. SQL Server 2000 and IIS were initially used as DB and application servers. Later migrated to SQL Server 2005 and Apache.</li>
+					<li class="bullet">Assisted in creating stylesheets that defined interface standards for all commonly displayed elements in pages within the web app.</li>
+					<li class="bullet">Led the configuration, training, and release of the issue tracking tool JIRA within the company.</li>
+					<li class="bullet">Developed scripts used for common system administration tasks using Perl.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>SNL Financial</span>
+					<span class="date">
+						2007-04-16 — 2008-03-10
+					</span>
+				</h4>
+				<div class="position">
+					Business Systems Analyst
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Maintained and acted as content expert for Institutional Ownership, Insider Trading and Short Interest datasets within the company.</li>
+					<li class="bullet">Communicated with third-party vendors for content and technical specifications related to datafeeds.</li>
+					<li class="bullet">Drafted technical specifications for converting manual collection and entry of credit ratings from three major credit rating agencies (S&amp;P, Moody’s, and Fitch) to automated process including specifications for software used for feed maintenance.</li>
+					<li class="bullet">Derived dataset statistics for senior management and sales teams for use in contract negotiations and marketing materials using SQL and proprietary Excel plug-in, SNLxl.</li>
+					<li class="bullet">Troubleshot problems reported in SQL Server 2005 stored procedures used for calculating SNL’s internal market indices.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>National Science Foundation</span>
+					<span class="date">
+						2004-06-01 — 2006-06-01
+					</span>
+				</h4>
+				<div class="position">
+					IGERT Fellow
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Led and assisted in various research projects interested in examining economic aspects of the emerging wireless technology cognitive radio.</li>
+					<li class="bullet">Conducted regression analysis on data collected in Economics Experiments in STATA. Results included in journal publications.</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Economics Dept. at Virginia Tech</span>
+					<span class="date">
+						2002-05-15 — 2006-06-01
+					</span>
+				</h4>
+				<div class="position">
+					Programmer/Lab Assistant
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Development, analysis, and refinement of a system (WITS) that used Palm Pilots as clients and a central server to simulate market scenarios in Economics classes.</li>
+					<li class="bullet">Programming in C# and data collection and analysis.</li>
+					<li class="bullet">Web design for WITS project</li>
+				</ul>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Virginia Tech Transportation Institute</span>
+					<span class="date">
+						2001-05-15 — 2003-08-15
+					</span>
+				</h4>
+				<div class="position">
+					Research Assistant
+				</div>
+				<h4>Highlights</h4>
+				<ul class="highlights">
+					<li class="bullet">Extract and analyze relevant data from transportation focused human factors studies using Excel, VB.NET, and SQL Server.</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+	
+	<section id="education" class="row">
+		<aside class="col-sm-3">
+			<h3>Education</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Virginia Tech</span>
+					<span class="date">
+						2004-05-15 — 2006-05-15
+					</span>
+				</h4>
+				<div class="area">
+					Economics
+				</div>
+				<div class="studyType">
+					Masters - NSF IGERT Fellow
+				</div>
+			</div>
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Virginia Tech</span>
+					<span class="date">
+						2000-08-15 — 2004-05-15
+					</span>
+				</h4>
+				<div class="area">
+					Economics &amp; Business Information Technology
+				</div>
+				<div class="studyType">
+					Bachelors
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	<section id="awards" class="row">
+		<aside class="col-sm-3">
+			<h3>Awards</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-12">
+				<h4 class="strike-through">
+					<span>Outstanding Senior in Economics - Class of 2004</span>
+				</h4>
+				<div class="date pull-right">
+					<em>Awarded</em>
+					2014-05-15
+				</div>
+				<div class="awarder">
+					<em>by</em>
+					<strong>Virginia Tech Economics Dept.</strong>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+	
+	<section id="skills" class="row">
+		<aside class="col-sm-3">
+			<h3>Skills</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Programming Languages</h4>
+				</div>
+				<ul class="keywords">
+					<li>Ruby</li>
+					<li>Python</li>
+					<li>Javascript/NodeJS</li>
+					<li>HTML/CSS</li>
+					<li>Java</li>
+					<li>Bash/Shell</li>
+					<li>C#</li>
+					<li>Clojure</li>
+					<li>Scala</li>
+					<li>Perl</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Software Tools/Services</h4>
+				</div>
+				<ul class="keywords">
+					<li>Amazon Web Services, Google Cloud Platform</li>
+					<li>Git, Mercurial, SVN, CVS</li>
+					<li>PostgreSQL, MySQL, SQL Server, Oracle, Redshift</li>
+					<li>ElasticSearch, Redis, MongoDB</li>
+					<li>Ansible, Docker, Chef, Capistrano, Fabric</li>
+					<li>Kinesis, Serverless</li>
+					<li>Travis, Jenkins, Vagrant</li>
+					<li>Websockets, Socket.IO, PubNub</li>
+				</ul>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Frameworks/Libraries</h4>
+				</div>
+				<ul class="keywords">
+					<li>EmberJS, AngularJS, ReactJS, BackboneJS</li>
+					<li>Ruby on Rails, Django, Spring MVC, Play</li>
+					<li>Flask, Sinatra, ExpressJS, Bottle</li>
+					<li>ActiveRecord, Mongoose/Mongoid, SQLAlchemy, Hibernate, Entity Framework</li>
+					<li>RSpec, QUnit, Mocha, Jasmine, Nose</li>
+				</ul>
+			</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="interests" class="row">
+		<aside class="col-sm-3">
+			<h3>Interests</h3>
+		</aside>
+		<div class="col-sm-9">
+			<div class="row">
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Cloud Services</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Emerging technologies</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Data Analysis and Machine Learning</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Design Patterns</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Service Oriented Architecture</h4>
+				</div>
+			</div>
+			<div class="col-sm-6">
+				<div class="name">
+					<h4>Financial Services and Investing</h4>
+				</div>
+			</div>
+			</div>
+		</div>
+	</section>
+	
+
+	</div>
+	
+	</body>
+</html>
