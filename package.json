@@ -6,8 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build:ferguson": "npm run build:ferguson:html && npm run build:ferguson:pdf",
-    "build:ferguson:html": "resume export --resume=ferguson.json --theme elegant index.html",
-    "build:ferguson:pdf": "resume export --resume=ferguson.json --theme eloquent AdamFerguson-Resume.pdf"
+    "build:ferguson:html": "resume export --resume=ferguson.json --theme elegant index.html && mv index.html docs/",
+    "build:ferguson:pdf": "resume export --resume=ferguson.json --theme eloquent AdamFerguson-Resume.pdf && mv AdamFerguson-Resume.pdf docs/",
+    "build:ferguson:pdf:hack": "../resume-cli/index.js export --resume=ferguson.json --theme flat AdamFerguson-Resume.pdf && mv AdamFerguson-Resume.pdf docs/"
   },
   "author": "Adam Ferguson <Adam.Brugh.Ferguson@gmail.com> (http://adam-ferguson.com/)",
   "license": "ISC",
