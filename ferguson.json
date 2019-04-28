@@ -1,0 +1,398 @@
+{
+	"basics": {
+		"name": "Adam Ferguson",
+		"label": "Senior Software Engineer",
+		"email": "Adam.Brugh.Ferguson@gmail.com",
+		"summary": "Software Engineer with broad experience in full stack web development, cloud computing, devops, data analysis, service oriented architecture, and systems integration. Strong problem solver with an eye for simple, reliable solutions. Active learner and quickly adapt to new technologies, techniques, and architectures.\n",
+		"picture": "https://avatars2.githubusercontent.com/u/793176?v=2&s=460",
+    "website": "http://adam-ferguson.com",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Charlotte",
+      "countryCode": "US",
+      "region": "NC"
+    },
+		"profiles": [
+			{
+				"network": "Github",
+				"username": "AdamFerguson",
+				"url": "https://github.com/AdamFerguson"
+			},
+			{
+				"network": "LinkedIn",
+				"username": "adambferg",
+				"url": "https://www.linkedin.com/in/adambferg"
+			},
+			{
+				"network": "StackOverflow",
+				"username": "Adam",
+				"url": "https://stackoverflow.com/users/836756/adam"
+			}
+		]
+	},
+	"skills": [
+		{
+			"name": "Programming Languages",
+			"keywords": [
+				"Ruby",
+				"Python",
+				"Javascript/NodeJS",
+				"HTML/CSS",
+				"Java",
+				"Bash/Shell",
+				"C#",
+				"Clojure",
+				"Scala",
+				"Go",
+				"Perl"
+			]
+		},
+		{
+			"name": "Software Tools/Services",
+			"keywords": [
+				"Amazon Web Services",
+				"Google Cloud Platform",
+				"Git",
+				"Mercurial",
+				"SVN",
+				"CVS",
+				"PostgreSQL",
+				"MySQL",
+				"SQL Server",
+				"Oracle",
+				"Redshift",
+				"ElasticSearch",
+				"Redis",
+				"MongoDB",
+				"Ansible",
+				"Docker",
+				"Chef",
+				"Capistrano",
+				"Fabric",
+				"Kinesis",
+				"Serverless",
+				"Travis",
+				"Jenkins",
+				"Vagrant",
+				"Websockets",
+				"Socket.IO",
+				"PubNub"
+			]
+		},
+		{
+			"name": "Frameworks/Libraries",
+			"keywords": [
+				"EmberJS",
+				"AngularJS",
+				"ReactJS/Redux",
+				"BackboneJS",
+				"Ruby on Rails",
+				"Django",
+				"Spring MVC",
+				"Play",
+				"Flask",
+				"Sinatra",
+				"ExpressJS",
+				"ActiveRecord",
+				"Mongoose/Mongoid",
+				"SQLAlchemy",
+				"Hibernate",
+				"Entity Framework",
+				"RSpec",
+				"Cucumber",
+				"QUnit",
+				"Mocha",
+				"Jasmine",
+				"Jest"
+			]
+		}
+	],
+	"work": [
+		{
+			"position": "Senior Software Engineer",
+			"company": "Invue Security Inc.",
+			"website": "https://invue.com",
+			"startDate": "2017-04-10",
+			"summary": "Cloud Infrastructure, DevOps, Full Stack Web, Android, IOT, Serverless",
+			"technologies": [
+				"NodeJS",
+				"ReactJS",
+				"Google Cloud Platform",
+				"Java",
+				"Ansible",
+				"Sequelize.js",
+				"PostgreSQL",
+				"REST API",
+				"Cloud Migration",
+				"Android",
+				"Reactive Extensions",
+				"AWS IOT",
+				"Cloud Formation",
+				"Lambda",
+				"Kinesis",
+				"Athena",
+				"Docker",
+				"GraphQL",
+				"AngularJS",
+				"ElasticSearch"
+			],
+			"highlights": [
+				"Lead developer on 'Access Manager', a web application that provides Zoning and Auditing of InVue devices for InVue's customers. Project uses React on the frontend, NodeJS/ExpressJS/Postgresql on the backend. A Java application server is used for communicating with InVue devices in the store. A native Android App that talks to the backend for site setup. Deployment and provisioning to GCP using Ansible.",
+				"Lead developer on 'Insight', a web application that provides reporting on planogram compliance and customer interactions on mobile devices. Project uses React/Redux on the frontend and NodeJS, ExpressJS on the backend. Device communication is handled via the Serverless framework with the use of AWS Lambda, AWS API Gateway, and DynamoDB. Deployed and provisioned to AWS using Ansible and Docker to AWS",
+				"Features, bugfixes, performance enhancements, and systems administration on 'Microsigns'. A web application that leveraged a microservices architecture using Node w/ PostgreSQL on the backend and AngularJS on the frontend. Deployed to AWS using Ansible and Docker."
+			]
+		},
+		{
+			"position": "Data Engineer and Application Development Consultant",
+			"company": "Ferguson Software Services onsite at Mood Media",
+			"startDate": "2015-01-10",
+			"endDate": "2017-03-31",
+			"summary": "Systems integration and web application development",
+			"technologies": [
+				"Python",
+				"SQLAlchemy",
+				"Ruby",
+				"Amazon Web Services",
+				"Ruby on Rails",
+				"ReactJS",
+				"AngularJS",
+				"Flask (Python)",
+				"Dedupe (Python)",
+				"ETL",
+				"Capistrano (Ruby)",
+				"Ansible",
+				"Hadoop",
+				"Storm",
+				"Kafka",
+				"Ambari",
+				"Alembic (Python)",
+				"Clojure",
+				"Redshift",
+				"Opsworks"
+			],
+			"highlights": [
+				"Integrated multiple systems using ETL with Python, and SQLAlchemy",
+				"Assisted in development of web application using C# on the backend and AngularJS on the frontend.",
+				"Developed and maintained multiple Ruby on Rails applications that used various client side javascript frameworks, including ReactJS and BackboneJS",
+				"Migrated an existing data warehousing solution from MongoDB to Redshift"
+			]
+		},
+		{
+			"position": "Web Development Consultant",
+			"company": "Ally Financial through OpenSystems Technologies",
+			"website": "https://ally.com",
+			"startDate": "2014-08-15",
+			"endDate": "2015-01-07",
+			"technologies": [
+				"EmberJS",
+				"NodeJS",
+				"Broccoli (Javascript)",
+				"Ember CLI",
+				"Rake Pipeline",
+				"RequireJS",
+				"SASS/SCSS",
+				"HTML5",
+				"CSS3"
+			],
+			"highlights": [
+				"Part of team that developed Ally's online banking frontend as an EmberJS application",
+				"Customized and completed several variants of the build process used by whole team for development and deployment. Tools used included Rake Pipeline, RequireJS, Broccoli, Ember-CLI, and ES6.",
+				"Reworked build process to create a mobile specific version of the online banking application. Added mobile specific customizations to the application."
+			],
+			"details": [
+				"Joined an existing development team to help in the completion, and deployment, of an effort to rewrite Ally's online banking frontend as an EmberJS application.",
+				"Completed the build process needed to minify, and fingerprint, javascript and css files prior to deployment in production. Build process used RequireJS and Rake Pipline.",
+				"Helped port build process of application to Ember CLI. Included rewriting javascript code to use ES6 modules instead of RequireJS style modules.",
+				"Wrote a custom dev server in NodeJS that acted as an API proxy. Allowed team to get around web browser security restrictions that were preventing testing on mobile devices.",
+				"Heavily customized Ember CLI build process to allow for separate application builds for Desktop web browser and Mobile web browsers. This process allowed for the creation of a mobile version of the existing desktop application that was a small subset of the desktop and reused most of the existing code with selective overrides."
+			]
+		},
+		{
+			"position": "Senior Software Engineer",
+			"company": "Technekes/Connexiolabs",
+			"startDate": "2013-02-14",
+			"endDate": "2014-08-10",
+			"technologies": [
+				"Ruby on Rails",
+				"Grape (Ruby)",
+				"Goliath (Ruby)",
+				"MongoDB",
+				"Postgresql",
+				"EmberJS",
+				"NodeJS",
+				"Javascript",
+				"Pubnub",
+				"ElasticSearch",
+				"Eloqua",
+				"Microservices",
+				"Puppet",
+				"Amazon Web Services"
+			],
+			"highlights": [
+				"Lead developer on call center application used by all of Technekes call center employees. Project used EmberJS on the front end, Ruby on Rails on the backend along with MongoDB, ElasticSearch, and Postgresql. Twilio was used for telephony.",
+				"Developed a realtime dashboard using EmberJS and Ruby on Rails that allowed administrators to monitor the status and listen to ongoing calls. Pubnub was used for realtime communication between the client and server.",
+				"Part of small developer team that was split off from Technekes to form a separate, product focused, startup 'Connexiolabs'. Developed several marketing focused applications and web services as a part of that startup using a Microservices architecture."
+			],
+			"details": [
+				"Work with a small team of developers to create back office tools for running marketing campaigns including: a Marketing Data API, a Workflow application, and a Call Center application.",
+				"Developed the Call Center application used by all of Technekes’ call center employees with one other developer and a designer. The frontend makes cross domain API calls to multiple backend services. The Call Center specific backend provides a backend JSON API and utilizes PostgresSQL, MongoDB, and ElasticSearch. The Twilio API is used for Telephony via both VOIP (via the browser) and phone-to-phone calls. Twitter Bootstrap is used as a basis for design, though the UI is quite customized beyond Bootstrap’s default appearance.",
+				"Developed a Realtime Dashboard using Ember.js and Ruby on Rails to allow Call Center administrators to monitor the status of Call Center employees and listen in on ongoing calls. The dashboard uses Pubnub to push status updates from the server to the browser and Sidekiq for queuing status updates.",
+				"Developed an admin interface for reporting aggregate information related to the Call Center.",
+				"Contributed to the Puppet repository used for managing all servers in QA and Production environments.",
+				"Part of a three developer team that was split off from Technekes to form a new, product-focused, startup: Connexiolabs.",
+				"Developed an Eloqua Cloud Connector application in Ruby on Rails that allows users to configure steps during their Eloqua marketing campaigns for sending text messages via the Twilio API. Used the Savon gem for communicating with Eloqua’s SOAP based API.",
+				"Develop two separate versions of an Ember.js and Ruby on Rails application that allows users to upload a CSV file that contains marketing data, map it into a form that can be sent to the Connexio API and then parse the file and upload the data to the API."
+			]
+		},
+		{
+			"position": "Senior Software Developer",
+			"company": "Mood Media/Muzak LLC",
+			"startDate": "2011-07-05",
+			"endDate": "2013-02-07",
+			"technologies": [],
+			"highlights": [
+				"Founding member of the New Product Development team. Designed and developed multiple web and mobile applications including OnlineDJ, Klikt, Sonictap, and the MyMuzak.",
+				"Developed the backend of MyMuzak, Klikt, and OnlineDJ using Ruby on Rails. Used MySQL, Sphinx, and Solr for data storage and free text search. Applications were developed using BDD and TDD techniques including the use of Cucumber and RSpec.",
+				"Developed mobile applications for the customer loyalty application, Klikt. Developed a native Android application in Java using SpringAndroid, Roboguice, Android Annotations, OrmLite, and Jackson.",
+				"Used BackboneJS for developing rich client side features in OnlineDJ and MyMuzak. Developed the Klikt iPhone app using phonegap and BackboneJS.",
+				"Used DevOps tools and techniques including Jenkins for continuous integration, Capistrano for automated deployments, and Chef for server provisioning.",
+				"Integrated applications with several third party services including Facebook, Twitter, Mailchimp, AppFigures, and Google Maps."
+			],
+			"details": [
+				"Worked as part of a small team of developers (started with two and eventually transitioned to six) to design and develop multiple web and mobile applications including OnlineDJ, Klikt, Sonictap, and the Mymuzak dashboard.",
+				"Designed and developed the MyMuzak dashboard, Klikt, and OnlineDJ web applications along with their RESTful (JSON based) APIs in version 3.2 Ruby on Rails apps using BDD and TDD techniques. Used Cucumber for feature development and integration testing and RSpec for integration and unit testing. Front end code written in a mixture of Haml, Scss, Coffeescript, Javascript, HTML, CSS, and ERB.",
+				"Helped set up and deploy all applications using multitiered architecture on Amazon Web Services (AWS). Used MySQL as the database server on RDS, with multiple application servers running nginx as the web server, Unicorn as the application server, in addition to a separate server used for running background jobs using resque and redis.",
+				"Used Sphinx and Thinking Sphinx gem for full text search in Mymuzak. Used Solr and Sunspot gem for search in OnlineDJ.",
+				"Developed server code in javascript for Sonictap application using Node.js, Express.js, Passport, and Mongoose. Application parsed UDP packets with playlist updates and served a RESTful API to authenticated iOS clients.",
+				"Promoted and led the integration of Backbone.js and Underscore.js for rich client side use in OnlineDJ. Built out a full featured calendar for scheduling playlists in Backbone.js, Underscore.js, Haml, and Scss.",
+				"Used Capistrano for deployment and eventually used Chef for automating server setup. Used continuous integration for automated deployments to our staging environments using Jenkins CI.",
+				"Led development on the initial prototype mobile application for Klikt that used Phonegap and was deployed to the Apple App Store. Used modern, structured, javascript techniques to write the application which used jQuery, jQuery Mobile, Backbone.js, and ICanHaz.js for client side templating and communicated with our RESTful API.",
+				"Led development on a native Android version of Klikt that had several advanced features, including push notifications (for new deals and loyalty programs), Google Maps integration, and QR code scanning. Used Spring Android and Jackson java libraries for communicating with the RESTful API. Designed a mechanism for communicating with the API in a background service and persisting the results to the phone.",
+				"Began developing an Android tablet application for OnlineDJ that used Android Annotations, Roboguice, Robolectric, Spring Android, Jackson, and OrmLite. Project was shelved prior to completion because of other higher priorities.",
+				"Wrote code for communicating with several third party API’s including Facebook, Twitter, Mailchimp, AppFigures, and Google Maps, along with a few others, in both Ruby and Java.",
+				"The development process for all projects was Agile with requirements built around wireframes and development cycles completed in two weeks sprints."
+			]
+		},
+		{
+			"position": "Software Engineer",
+			"company": "Public Consulting Group",
+			"startDate": "2008-03-15",
+			"endDate": "2011-05-15",
+			"projects": [],
+			"technologies": [
+				"Perl",
+				"Javascript",
+				"JQuery",
+				"HTML",
+				"SQL",
+				"CSS"
+			],
+			"highlights": [
+				"Lead developer on BehaviorPlus, a web app for tracking behavior issues in grade school students. BehaviorPlus integrated with EasyIEP, an existing application that helps school districts comply with laws around services for special education students.",
+				"Developed backend code in SQL and Perl, frontend code in HTML, CSS, and Javascript, jQuery and PrototypeJS. SQL Server 2000 and IIS were initially used as DB and application servers. Later migrated to SQL Server 2005 and Apache.",
+				"Assisted in creating stylesheets that defined interface standards for all commonly displayed elements in pages within the web app.",
+				"Led the configuration, training, and release of the issue tracking tool JIRA within the company.",
+				"Developed scripts used for common system administration tasks using Perl."
+			],
+			"details": [
+				"Primary developer on BehaviorPlus, a web app for tracking behavioral issues in grade school students that integrated with an existing legacy system that tracked data on special education students.",
+				"Followed an iterative software development process where word documents describing the data entry screens and flow between screens were used to design the database schema, middle tier components used to interact with the database, and front end code for displaying data to the user.",
+				"Backend code was written using SQL and Perl, front end code was written using an in-house templating system similar in nature to JSP or Erb, along with HTML, CSS, and Javascript (including the Prototype and jQuery javascript libraries). SQL Server 2000 and IIS were initially used as DB and application servers. Later migrated to SQL Server 2005 and Apache.",
+				"Assisted in creating stylesheets that defined interface standards for all commonly displayed elements in pages within the web app.",
+				"Led the configuration, training, and release of the issue tracking tool JIRA within the company.",
+				"Communicated technical system requirements to Business Systems Analysts and Project Managers for features and system changes during the design phase of projects.",
+				"Developed scripts used for common system administration tasks using Perl."
+			]
+		},
+		{
+			"position": "Business Systems Analyst",
+			"company": "SNL Financial",
+			"startDate": "2007-04-16",
+			"endDate": "2008-03-10",
+			"projects": [],
+			"technologies": [],
+			"highlights": [
+				"Maintained and acted as content expert for Institutional Ownership, Insider Trading and Short Interest datasets within the company.",
+				"Communicated with third-party vendors for content and technical specifications related to datafeeds.",
+				"Drafted technical specifications for converting manual collection and entry of credit ratings from three major credit rating agencies (S&P, Moody’s, and Fitch) to automated process including specifications for software used for feed maintenance.",
+				"Derived dataset statistics for senior management and sales teams for use in contract negotiations and marketing materials using SQL and proprietary Excel plug-in, SNLxl.",
+				"Troubleshot problems reported in SQL Server 2005 stored procedures used for calculating SNL’s internal market indices."
+			]
+		},
+		{
+			"position": "IGERT Fellow",
+			"company": "National Science Foundation",
+			"startDate": "2004-06-01",
+			"endDate": "2006-06-01",
+			"projects": [],
+			"technologies": [],
+			"highlights": [
+				"Led and assisted in various research projects interested in examining economic aspects of the emerging wireless technology cognitive radio.",
+				"Conducted regression analysis on data collected in Economics Experiments in STATA. Results included in journal publications."
+			]
+		},
+		{
+			"position": "Programmer/Lab Assistant",
+			"company": "Economics Dept. at Virginia Tech",
+			"startDate": "2002-05-15",
+			"endDate": "2006-06-01",
+			"projects": [],
+			"technologies": [],
+			"highlights": [
+				"Development, analysis, and refinement of a system (WITS) that used Palm Pilots as clients and a central server to simulate market scenarios in Economics classes.",
+				"Programming in C# and data collection and analysis.",
+				"Web design for WITS project"
+			]
+		},
+		{
+			"position": "Research Assistant",
+			"company": "Virginia Tech Transportation Institute",
+			"startDate": "2001-05-15",
+			"endDate": "2003-08-15",
+			"projects": [],
+			"technologies": [],
+			"highlights": [
+				"Extract and analyze relevant data from transportation focused human factors studies using Excel, VB.NET, and SQL Server."
+			]
+		}
+	],
+	"education": [
+		{
+      "institution": "Virginia Tech",
+      "area": "Economics",
+      "studyType": "Masters - NSF IGERT Fellow",
+      "startDate": "2004-05-15",
+      "endDate": "2006-05-15",
+      "gpa": "3.5"
+		},
+		{
+      "institution": "Virginia Tech",
+      "area": "Economics & Business Information Technology",
+      "studyType": "Bachelors",
+      "startDate": "2000-08-15",
+      "endDate": "2004-05-15",
+      "gpa": "3.7"
+		}
+	],
+	"awards": [
+		{
+		"title": "Outstanding Senior in Economics - Class of 2004",
+		"date": "2014-05-15",
+		"awarder": "Virginia Tech Economics Dept."
+		}
+	],
+	"interests": [
+		{"name": "Cloud Services", "keywords": []},
+		{"name": "Emerging technologies", "keywords": []},
+		{"name": "Data Analysis and Machine Learning", "keywords": []},
+		{"name": "Design Patterns", "keywords": []},
+		{"name": "Service Oriented Architecture", "keywords": []},
+		{"name": "Financial Services and Investing", "keywords": []}
+	],
+	"volunteer": [
+	],
+	"publications": [],
+	"languages": [],
+	"references": []
+}
