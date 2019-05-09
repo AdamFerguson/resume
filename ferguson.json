@@ -138,8 +138,8 @@
 				"ElasticSearch"
 			],
 			"highlights": [
-				"Lead developer on 'Access Manager', a web application that provides Zoning and Auditing of InVue devices for InVue's customers. Project uses React on the frontend, NodeJS/ExpressJS/Postgresql on the backend. A Java application server is used for communicating with InVue devices in the store. A native Android App that talks to the backend for site setup. Deployment and provisioning to GCP using Ansible.",
-				"Lead developer on 'Insight', a web application that provides reporting on planogram compliance and customer interactions on mobile devices. Project uses React/Redux on the frontend and NodeJS, ExpressJS on the backend. Device communication is handled via the Serverless framework with the use of AWS Lambda, AWS API Gateway, and DynamoDB. Deployed and provisioned to AWS using Ansible and Docker to AWS",
+				"Lead developer on 'Access Manager', a web application that provides Zoning and Auditing of InVue devices. Project uses React on the frontend, NodeJS/ExpressJS/Postgresql on the backend. A Java application server is used for communicating with InVue devices in the store. A native Android App that talks to the backend for site setup. Deployment and provisioning to GCP using Ansible.",
+				"Lead developer on 'Insight', a web application that provides reporting on planogram compliance and customer interactions on mobile devices. Project uses React/Redux on the frontend and NodeJS, ExpressJS on the backend. Device communication is handled via the Serverless framework with the use of AWS Lambda, AWS API Gateway, and DynamoDB. Deployed and provisioned using Ansible and Docker.",
 				"Features, bugfixes, performance enhancements, and systems administration on 'Microsigns'. A web application that leveraged a microservices architecture using Node w/ PostgreSQL on the backend and AngularJS on the frontend. Deployed to AWS using Ansible and Docker."
 			]
 		},
@@ -252,7 +252,7 @@
 			"endDate": "2013-02-07",
 			"technologies": [],
 			"highlights": [
-				"Founding member of the New Product Development team. Designed and developed multiple web and mobile applications including OnlineDJ, Klikt, Sonictap, and the MyMuzak.",
+				"Founding member of the New Product Development team. Designed and developed multiple web and mobile applications including OnlineDJ, Klikt, Sonictap, and MyMuzak.",
 				"Developed the backend of MyMuzak, Klikt, and OnlineDJ using Ruby on Rails. Used MySQL, Sphinx, and Solr for data storage and free text search. Applications were developed using BDD and TDD techniques including the use of Cucumber and RSpec.",
 				"Developed mobile applications for the customer loyalty application, Klikt. Developed a native Android application in Java using SpringAndroid, Roboguice, Android Annotations, OrmLite, and Jackson.",
 				"Used BackboneJS for developing rich client side features in OnlineDJ and MyMuzak. Developed the Klikt iPhone app using phonegap and BackboneJS.",
