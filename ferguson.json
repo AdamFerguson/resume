@@ -111,9 +111,64 @@
 	"work": [
 		{
 			"position": "Senior Software Engineer",
+			"company": "Delta Bravo",
+			"website": "https://deltabravo.ai",
+			"startDate": "2020-07-01",
+			"summary": "Data Science, DevOps, Web Application Development",
+			"technologies": [
+				"Kubernetes",
+				"Helm",
+				"React",
+				"GraphQL",
+				"Golang",
+				"PostgreSQL",
+				"Python",
+				"Pandas",
+				"Sklearn",
+				"FastAPI",
+				"Plot.ly",
+				"Hasura",
+				"Keycloak"
+			],
+			"highlights": [
+				"Creation of ML Models used to optimize manufacturing processes of client firms",
+				"Development of web applications used by clients to visualize predictions made by ML Models. Projects used React, Hasura, FastAPI, and PostgreSQL.",
+				"Build Helm Charts and CI/CD pipelines used for deploying web applications",
+				"Feature development on Kubernetes based ML Platform in Golang, GraphQL, React, PostgreSQL, and Argo"
+			]
+		},
+		{
+			"position": "Senior AI Developer",
+			"company": "Ally Financial",
+			"website": "https://ally.com",
+			"startDate": "2019-08-12",
+			"endDate": "2020-06-30",
+			"summary": "DevOps, Services based Application Development",
+			"technologies": [
+				"Kubernetes",
+				"Openshift",
+				"Redis",
+				"Rasa",
+				"AWS Lex",
+				"AWS Lambda",
+				"Python",
+				"Terraform",
+				"Helm",
+				"Javascript",
+				"Jenkins"
+			],
+			"highlights": [
+				"Build CI/CD pipeline for deployment of multiple services for AI team. Terraform for AWS deployment, Helm for Openshift deployment, Jenkins for CI/CD",
+				"Researched and led architecture choices for the use of Rasa as a primary component of Ally's chatbot platform.",
+				"Developed and unit tested AWS Lambda's for use by an existing AWS Lex bot used in Ally's chatbot platform."
+			]
+		},
+		{
+			"position": "Senior Software Engineer",
 			"company": "Invue Security Inc.",
 			"website": "https://invue.com",
 			"startDate": "2017-04-10",
+			"endDate": "2019-08-09",
 			"summary": "Cloud Infrastructure, DevOps, Full Stack Web, Android, IOT, Serverless",
 			"technologies": [
 				"NodeJS",
@@ -148,7 +203,7 @@
 			"company": "Ferguson Software Services onsite at Mood Media",
 			"startDate": "2015-01-10",
 			"endDate": "2017-03-31",
-			"summary": "Systems integration and web application development",
+			"summary": "Systems Integration and Web Application Development",
 			"technologies": [
 				"Python",
 				"SQLAlchemy",
