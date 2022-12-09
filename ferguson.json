@@ -4,14 +4,14 @@
 		"label": "Senior Software Engineer",
 		"email": "Adam.Brugh.Ferguson@gmail.com",
 		"summary": "Software Engineer with broad experience in full stack web development, cloud computing, devops, data analysis, service oriented architecture, and systems integration. Strong problem solver with an eye for simple, reliable solutions. Active learner and quickly adapt to new technologies, techniques, and architectures.\n",
-		"picture": "https://avatars2.githubusercontent.com/u/793176?v=2&s=460",
+		"picture_old": "https://avatars2.githubusercontent.com/u/793176?v=2&s=460",
     "website": "http://adam-ferguson.com",
     "location": {
       "address": "",
       "postalCode": "",
       "city": "Charlotte",
       "countryCode": "US",
-      "region": "NC"
+      "region": "Charlotte, NC"
     },
 		"profiles": [
 			{
@@ -114,7 +114,7 @@
 			"company": "Delta Bravo",
 			"website": "https://deltabravo.ai",
 			"startDate": "2020-07-01",
-			"summary": "Data Science, DevOps, Web Application Development",
+			"summary": "Delta Bravo is a startup delivering Machine Learning solutions for clients in manufacturing.",
 			"technologies": [
 				"Kubernetes",
 				"Helm",
@@ -131,9 +131,9 @@
 				"Keycloak"
 			],
 			"highlights": [
-				"Creation of ML Models used to optimize manufacturing processes of client firms",
+				"Creation of ML Models using Pandas, Scikit-Learn, and XGBoost to optimize manufacturing processes of client firms",
 				"Development of web applications used by clients to visualize predictions made by ML Models. Projects used React, Hasura, FastAPI, and PostgreSQL.",
-				"Build Helm Charts and CI/CD pipelines used for deploying web applications",
+				"Build Helm Charts, Terraform Modules and CI/CD pipelines used for deploying web applications",
 				"Feature development on Kubernetes based ML Platform in Golang, GraphQL, React, PostgreSQL, and Argo"
 			]
 		},
@@ -143,7 +143,7 @@
 			"website": "https://ally.com",
 			"startDate": "2019-08-12",
 			"endDate": "2020-06-30",
-			"summary": "DevOps, Services based Application Development",
+			"summary": "DevOps and Services based Application Development for Online Banking",
 			"technologies": [
 				"Kubernetes",
 				"Openshift",
@@ -169,7 +169,7 @@
 			"website": "https://invue.com",
 			"startDate": "2017-04-10",
 			"endDate": "2019-08-09",
-			"summary": "Cloud Infrastructure, DevOps, Full Stack Web, Android, IOT, Serverless",
+			"summary": "Invue Security is a small company focused on providing hardware and software based security solutions for retailers.",
 			"technologies": [
 				"NodeJS",
 				"ReactJS",
@@ -203,7 +203,7 @@
 			"company": "Ferguson Software Services onsite at Mood Media",
 			"startDate": "2015-01-10",
 			"endDate": "2017-03-31",
-			"summary": "Systems Integration and Web Application Development",
+			"summary": "Consulted with Mood Media to provide systems integration, ETL and web application development",
 			"technologies": [
 				"Python",
 				"SQLAlchemy",
@@ -344,20 +344,10 @@
 				"CSS"
 			],
 			"highlights": [
-				"Lead developer on BehaviorPlus, a web app for tracking behavior issues in grade school students. BehaviorPlus integrated with EasyIEP, an existing application that helps school districts comply with laws around services for special education students.",
-				"Developed backend code in SQL and Perl, frontend code in HTML, CSS, and Javascript, jQuery and PrototypeJS. SQL Server 2000 and IIS were initially used as DB and application servers. Later migrated to SQL Server 2005 and Apache.",
-				"Assisted in creating stylesheets that defined interface standards for all commonly displayed elements in pages within the web app.",
-				"Led the configuration, training, and release of the issue tracking tool JIRA within the company.",
-				"Developed scripts used for common system administration tasks using Perl."
+				"Lead developer on BehaviorPlus, a web app for tracking behavior issues in grade school students. BehaviorPlus integrated with EasyIEP, an existing application that helps school districts comply with laws around services for special education students."
 			],
 			"details": [
-				"Primary developer on BehaviorPlus, a web app for tracking behavioral issues in grade school students that integrated with an existing legacy system that tracked data on special education students.",
-				"Followed an iterative software development process where word documents describing the data entry screens and flow between screens were used to design the database schema, middle tier components used to interact with the database, and front end code for displaying data to the user.",
-				"Backend code was written using SQL and Perl, front end code was written using an in-house templating system similar in nature to JSP or Erb, along with HTML, CSS, and Javascript (including the Prototype and jQuery javascript libraries). SQL Server 2000 and IIS were initially used as DB and application servers. Later migrated to SQL Server 2005 and Apache.",
-				"Assisted in creating stylesheets that defined interface standards for all commonly displayed elements in pages within the web app.",
-				"Led the configuration, training, and release of the issue tracking tool JIRA within the company.",
-				"Communicated technical system requirements to Business Systems Analysts and Project Managers for features and system changes during the design phase of projects.",
-				"Developed scripts used for common system administration tasks using Perl."
+				"Primary developer on BehaviorPlus, a web app for tracking behavioral issues in grade school students that integrated with an existing legacy system that tracked data on special education students."
 			]
 		},
 		{
@@ -369,10 +359,8 @@
 			"technologies": [],
 			"highlights": [
 				"Maintained and acted as content expert for Institutional Ownership, Insider Trading and Short Interest datasets within the company.",
-				"Communicated with third-party vendors for content and technical specifications related to datafeeds.",
 				"Drafted technical specifications for converting manual collection and entry of credit ratings from three major credit rating agencies (S&P, Moody’s, and Fitch) to automated process including specifications for software used for feed maintenance.",
-				"Derived dataset statistics for senior management and sales teams for use in contract negotiations and marketing materials using SQL and proprietary Excel plug-in, SNLxl.",
-				"Troubleshot problems reported in SQL Server 2005 stored procedures used for calculating SNL’s internal market indices."
+				"Derived dataset statistics for senior management and sales teams for use in contract negotiations and marketing materials using SQL and proprietary Excel plug-in, SNLxl."
 			]
 		},
 		{
@@ -395,9 +383,8 @@
 			"projects": [],
 			"technologies": [],
 			"highlights": [
-				"Development, analysis, and refinement of a system (WITS) that used Palm Pilots as clients and a central server to simulate market scenarios in Economics classes.",
-				"Programming in C# and data collection and analysis.",
-				"Web design for WITS project"
+				"Development, analysis, and refinement of a system that used Palm Pilots as clients and a central server to simulate market scenarios in Economics classes.",
+				"Programming in C# and data collection and analysis."
 			]
 		},
 		{
